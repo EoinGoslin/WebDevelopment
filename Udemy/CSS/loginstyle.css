@@ -1,0 +1,59 @@
+/*Basic syntax for css is...
+Selector {
+            Property: value;
+} 
+
+This style sheet is linked to the index.html
+*/
+
+body{
+    /* can either set using an address of image or download and then reference pic e.g. 
+    url(indexbackground.jpg)*/
+    background-image: url(https://images.unsplash.com/photo-1508194655238-ce9778477681?ixlib=rb-0.3.5&s=cd61972eabb77a0a906dd8ddbaf0eb56&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    
+}
+h2 { /*using hover, only will be styled that way when pointer over that selector */
+    text-align: center;
+    color: #41837E;
+    cursor: pointer;
+    border: 5px solid #689D99; /*This border is also around p tag*/
+    padding: 10px;
+}
+
+p {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: dashed;
+    text-transform: uppercase;
+    font-weight: 900;
+   
+}
+
+li {
+    color: rgb(104, 157, 153);
+    list-style: none;
+    display: inline;
+    
+}
+
+/*How to use class element to select a group of elements and 
+style them as their own group seperate to rest of webpage */
+
+.lorem-ps{
+    border: 5px dashed rgb(38, 3, 231);
+}
+/* the color of the anchor tags */
+
+.about { 
+    color: blueviolet;
+}
+
+/* Have to use a # when utilising an id selector */
+/*#paragraph3Style {
+    color: red;
+    
+} 
+
+

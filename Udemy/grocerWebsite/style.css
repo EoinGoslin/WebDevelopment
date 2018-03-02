@@ -1,0 +1,29 @@
+body {
+    background-color: #2E4172;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    border: 5px solid #7887AB;
+}
+
+.transform {
+    transition: all 1s;
+}
+
+.transform:hover {
+    border: 2px dashed #748BA7;
+   
+    transform: scale(1.1);
+}
+
+p {
+    color: white;
+}
+
+

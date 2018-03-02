@@ -1,0 +1,56 @@
+body {
+    background-color: #2F4073;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    
+}
+
+.earthpic {
+    position: absolute;
+    left: 472px;
+    top: 94px;
+}
+.paragraph {
+    color: antiquewhite;
+  position: relative;
+  text-align: center;
+  bottom: 100px;
+}
+.bigPlanet {
+    position: relative;
+    width: 700px;
+    left: 440px;
+    bottom: 80px;
+}
+
+.bbcLogo {
+    position: absolute;
+    right: 100px;
+}
+p {
+    position: relative;
+    text-align: center;
+    bottom: 50px;
+    color: #8090B5;
+}
+
+#linktoedu{
+    color: #779BAE;
+}
+
+#openlogo {
+    position: absolute;
+    right: 50px;
+}
+
+#whaleshark {
+   position: absolute;
+   width: 100px;
+   height: 80px;
+   bottom: 540px;
+   left: 720px;
+}
+/* 8090B5 */

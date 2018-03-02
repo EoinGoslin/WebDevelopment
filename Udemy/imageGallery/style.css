@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px gray; /*can do this nowadays*/
+    /* had to originally ddo this as was a new feature */
+    -moz-box-shadow: 4px 4px 5px gray; /*mozilla*/
+    -ms-box-shadow: 4px 4px 5px gray;/*internet explorer*/
+    -webkit-box-shadow: 4px 4px 5px gray;/*safari and chrome*/
+    -o-box-shadow: 4px 4px 5px gray;/*opera browser*/
+    margin-top: 10px
+}
+
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    /* transform-origin: bottom; */
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    /* can also rotate */
+    /* transform: rotate(360deg); */
+    /*-webkit-transform:translate(20px 20px);
+    transform: translate(20px, 20px);*/
+   
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: #162955;
+}
+
+.container {
+    align-content: center;
+    
+}
+h1 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E4E2;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px gray; /*can do this nowadays*/
+    /* had to originally ddo this as was a new feature */
+    -moz-box-shadow: 4px 4px 5px gray; /*mozilla*/
+    -ms-box-shadow: 4px 4px 5px gray;/*internet explorer*/
+    -webkit-box-shadow: 4px 4px 5px gray;/*safari and chrome*/
+    -o-box-shadow: 4px 4px 5px gray;/*opera browser*/
+    margin-top: 10px
+}
+
+.col-4 {
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.col {
+    background-color: #7887AB;
+    border: 2px solid black;
+}
+
+.col-sm-2 {
+    background-color: #7887AB;
+    border: 2px solid black;
+
+}

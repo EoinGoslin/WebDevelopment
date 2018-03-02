@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+
+    </head>
+    <body background = "https://cms.splendidtable.org/sites/default/files/styles/w2000/public/470340853.jpg?itok=Vu-VD1UP">
+        <textarea rows="2" cols="50">
+            Hello i am in a text area.
+        </textarea>
+        
+        
+        <form method="GET">
+            First Name: <input type="text" name="firstname"> <br>
+            Last Name: <input type="text" name="lastname"> <br>
+            Email: <input type="email" name="email" required><br>
+            Password <input type="password" name="password" min="5"><br>
+            Birthday: <input type="date" name="birthday" required><br>
+            Gender: <br>
+            Male <input type="radio" name="gender" value="Male"><br>
+            Female <input type="radio" name="gender" value="Female"><br>
+            Other <input type = "radio" name="gender" value="Other"><br>
+            <br>
+            Pets: <br>
+            Dog <input type="checkbox"  name="dog">
+            Cat <input type="checkbox" name="cat">
+            Fishy fish <input type ="checkbox" name="fishyfish"><br>
+            
+            Cars:<br>
+            <select name="cars"> <!-- <name = "cars" is so that the value of Volvo and Audi, can be associated with the name cars-->
+                <option value=" Volvo " name = "volvo" > Volvo </option>
+                <option value= " Audi " name = "audi"> Audi </option>
+            </select><br>
+            
+        
+
+            <input type="submit" value="Submit Form">
+            <input type="reset" value ="clear form">
+
+
+
+
+        </form>
+        <br>
+        <a href="cheeseWeb.html"><strong><em>Go Back</em></strong></a>
+    </body>
+</html>
+<!-- ctrl / to do a quick comment  -->
+
+
+<!-- This is a comment tag
+
+    This whole block below is called a query string
+    
+
+?firstname=eoin
+&lastname=goslin
+&email=eoingoslin%40gmail.com the symbol % is used instead of @, as @ has special meaning encoded into the url so % has to be used instead
+&password=1234
+&birthday=2018-01-02
+&gender=Male&dog=on
+&cars=+Audi+
+-->
+

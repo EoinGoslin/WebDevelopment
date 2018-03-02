@@ -1,0 +1,37 @@
+ body {
+    background-image: url(backG.jpg);
+ 
+     background-size: cover;
+     
+ }
+
+
+
+  .container {
+      text-align: center;
+      vertical-align: middle;
+      border: 5px dashed white;
+  }
+
+  /* .container:hover{
+      border: 5px dashed white;
+  } */
+
+  h1 {
+      color: white;
+  }
+
+h3{
+      color: white;
+  }
+
+  .alert {
+    text-align: center;
+    padding:10px;
+    background:#79c879;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+  }
+
+ 

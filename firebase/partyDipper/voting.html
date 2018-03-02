@@ -1,0 +1,78 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>VotePage</title>
+        <link rel="stylesheet" type="text/css" href="votingStyle.css">
+
+       
+    </head>
+    <body>
+           
+
+            <div class ="container">
+                    <div class="alert">Your message has been sent</div>
+            <form id="votingForm" >
+                <br>
+                <h3>Name:</h3> <input type="text" id="name">
+                    
+                <h1>Pubs : </h1>
+                <select name="Pubs" id="Pubs">
+                    <option value="Roost" name = "Roost"> Roost</option>
+                    <option value="Bradys" name = "Bradys">Bradys</option>
+                    <option value="SU" name = "SU">SU</option>
+                    <option value="GetCans" name = "GetCans">BagofCans</option>
+
+
+                </select>
+
+                <hr>
+                DayOfWeek : <br>
+                Monday<input type="radio" name="dayofweek" value="Monday"><br>
+                Tuesday<input type="radio" name="dayofweek" value="Tuesday"><br>
+                Wednesday<input type="radio" name="dayofweek" value="Wednesday"><br>
+                Thursday<input type="radio" name="dayofweek" value="Thursdsay"><br>
+                Friday<input type="radio" name="dayofweek" value="Friday"><br>
+                Saturday<input type="radio" name="dayofweek" value="Saturday"><br>
+                Sunday<input type="radio" name="dayofweek" value="Sunday"><br>
+                <hr>
+                <br>
+                Budget : <br>
+                0-10 <input type="radio" name="budget" value="0-10">
+                10-20 <input type="radio" name="budget" value="10-20">
+                20-30 <input type="radio" name="budget" value="20-30">
+                MakingitRain <input type="radio" name="budget" value="MakingitRain">
+
+
+                <hr>
+                <br>
+                <button type="submit" id="submit" >
+                        <!-- <a href="results.html">Submit</a> -->
+                       Submit
+                    </button>
+
+                <input type="reset" value ="clear form">
+
+                <button id="btnLogout">
+                    <a href="index.html">Leave Page and sign out</a>
+                </button>
+                <br>
+                <hr><br>
+                <button id="btnViewResults">
+                        <a href="results.html">View Results</a>
+                    </button>
+               
+
+            </form>
+        </div>
+        
+
+
+
+
+
+
+
+        <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+        <script src="voting.js"></script>
+    </body>
+</html>

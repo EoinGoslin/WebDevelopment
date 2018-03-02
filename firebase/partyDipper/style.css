@@ -1,0 +1,45 @@
+body {
+    background-color: #2E4172;
+}
+
+h1 {
+     text-align: center;
+    /*text-decoration: underline; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF851B;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 800px;
+    text-align: center;
+    box-shadow: 4px 4px 5px gray; /*can do this nowadays*/
+    /* had to originally ddo this as was a new feature */
+    -moz-box-shadow: 4px 4px 5px gray; /*mozilla*/
+    -ms-box-shadow: 4px 4px 5px gray;/*internet explorer*/
+    -webkit-box-shadow: 4px 4px 5px gray;/*safari and chrome*/
+    -o-box-shadow: 4px 4px 5px gray;/*opera browser*/
+    margin-top: 10px
+}
+
+.container {
+    text-align: center;
+    border: 5px solid #7887AB;
+}
+
+.transform {
+    transition: all 1s;
+}
+
+.transform:hover {
+    border: 2px dashed #748BA7;
+   
+    transform: scale(1.1);
+}
+
+p {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
