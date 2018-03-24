@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    
+    <title>spaceGame</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+
+
+</head>
+    <body>
+        
+
+        <br>
+       
+        <div class="launchButton w3-container w3-center w3-animate-top">
+
+        
+        <button onclick="startGame()" id="startButton" class="hvr-shutter-out-vertical" onmouseover="audio = new Audio('doorOpen.wav');
+        audio.play();this.innerHTML = 'Launch!'" onmouseout="audio = new Audio('doorOpen.wav'); audio.play();this.innerHTML = 'Play Space Adventure'">Play space adventure</button>
+    </div>
+
+    
+        <div>
+            <p id="finalMessage">
+
+            </p>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+        <script src="keysToMove.js"></script>
+    </body>
+</html>
