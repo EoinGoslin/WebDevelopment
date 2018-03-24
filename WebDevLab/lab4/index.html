@@ -1,0 +1,75 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>MyAverageGrades</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <h1>Lab4 Assignment</h1>
+        <div>
+
+        
+        <table id="myTable" align = "center"> 
+            <thead>
+                <!-- Inside table head -->
+                <!-- All the tabe rows are headers -->
+               <tr>
+                   <th contenteditable="true"class ="centrealign">Name</th>
+                   <th contenteditable="true" class = "centrealign">ID</th>
+                   <th onclick="highlightFirstAssignment(this)" contenteditable="true" class = "centrealign">Assignment 1</th>
+                   <th class ="centrealign">Final Grade</th>
+               </tr>
+               
+            </thead>
+            <tbody >
+                <tr>
+                    
+                    <td onclick="highlightRow(this)" contenteditable input align = "left" class = "dash"></td>
+                    <td contenteditable class="assign leftalign dash"></td>
+                    <td contenteditable class="assign rightalign dash"></td>
+                    <td contenteditable class= "rightalign dash"></td>
+                
+                </tr>
+
+                
+                  
+
+            </tbody>
+
+        </table>
+    </div>
+    <br>
+   
+
+        
+        
+
+        
+
+       
+        <div class="wrapper">
+                <button onclick="getAverage()"id="getAverage">Get Average</button>
+                <button onclick="newRow()"id="getAverage">New Row</button>
+                <button onclick="newColumn()"id="getAverage">New Column</button>
+                
+        </div>
+        <br>
+       
+            <div class="secondRow">
+                <button class="buttonStyle"   onclick="TabletoCookie()"id="TabletoCookie">Save Table to Cookie</button>
+                <button  class="buttonStyle"  onclick="getTable()"id="getTable">Load Saved Table</button>
+                <button  class="buttonStyle"  onclick="deleteCookies()"id="deleteCookies">Remove Cookies</button>
+        </div>
+        <br>
+        <div class="thirdRow">
+            <button class="deleteButton"   onclick="deleteRow()"id="deleteRow">Delete Rows Highlighted Blue</button>
+            <button  class="deleteButton"  onclick="deleteColumn()"id="deleteColumn">Delete Assignment Highlighted Green</button>
+            <button  class="deleteButton"  onclick="undoDelete()"id="undoDelete">Undo Delete</button>
+    </div>
+
+        
+        <script src ="main.js"></script>
+            </body>
+
+</html>
