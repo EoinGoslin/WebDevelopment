@@ -1,0 +1,35 @@
+body {
+    background: url(background.jpg);
+    color: yellow;
+    font-weight: bold;
+    min-height: 400px;
+    min-width: 300px;
+    font-size: 1em;
+    text-decoration-color: black;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+    /* height and width at the moment determined by content size */
+    /* height: 200px;
+    min-width:300px; */
+
+
+/*
+Chrome extension popups have a maximum height of 600px and 
+maximum width of 800px.*/ 
+
+#result{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.done {
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+

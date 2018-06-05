@@ -1,0 +1,16 @@
+button {
+    color: white;
+    border: 2px solid lightblue;
+    background-color: indigo;
+}
+
+body{
+    background-color: lightseagreen;
+    /* height and width at the moment determined by content size */
+    /* height: 200px;
+    min-width:300px; */
+}
+
+/*
+Chrome extension popups have a maximum height of 600px and 
+maximum width of 800px.*/ 

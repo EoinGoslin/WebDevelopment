@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+  
+    "name": "CoolCalc",
+    "description": "This extension will serve as a basic calculator",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "coolCalcIcon.png",
+     "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "css": ["style.css"],
+        "matches": [
+            "<all_urls>"
+          ]
+      }], 
+    "permissions": [
+     "activeTab"
+     ]
+  }
