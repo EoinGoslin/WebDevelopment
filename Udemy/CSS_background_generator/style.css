@@ -1,0 +1,49 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    font-weight: bold;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+button {
+    cursor: pointer;
+background:    #83aac9;
+
+border-radius: 6px;
+box-shadow:    0 4px #000000;
+padding:       16px 18px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal 700 24px/1 "Komika", cursive;
+text-align:    center;
+text-shadow:   2px 2px #000000;
+transition: all 1s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    box-shadow:    0 6px #000000;
+}
